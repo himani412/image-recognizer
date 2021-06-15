@@ -1,16 +1,39 @@
-body{
-    color: rgb(0, 47, 255);
-    background: rgb(236, 232, 7);
+body
+{
+  color: white;
+  background: #c0d3ff;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#resultemotionname ,#resultemotionname2  
+{
+  color: black;
+}
+.emotionname
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
 }
 .heading{
-    width: 80%;
-    font-size: 22px;
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
 }
-.name_of_objects,#resultobjectname,#resultobjectaccuracy{
-    color: black;
-}
-#camera{
-    border: 2px dashed blueviolet;
-    width: 350px;
-    height: 300px;
+label{
+  font-size: 14px;
+  color: blue;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: burlywood;
 }
